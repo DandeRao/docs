@@ -30,7 +30,7 @@ To initialize your own Parse-Server with Javascript, you should replace your cur
 
 
 ```js
-Parse.initialize("YOUR_APP_ID");
+Parse.initialize('applicationId', 'javaScriptKey', 'masterKey');
 Parse.serverURL = 'http://YOUR_PARSE_SERVER:1337/parse'
 ```
 
